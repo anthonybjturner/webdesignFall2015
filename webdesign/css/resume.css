@@ -22,6 +22,31 @@
 	
 }
 
+.styled-borders{
+	
+	border-radius: 0 4px 4px 0;
+	
+	border-top: 0;
+	border-right: 2px;
+	border-bottom: 2px;
+	border-left: 2px;
+
+	background: #fff;
+	border: solid 1px #ccc;
+	
+	padding: 8px;
+	margin-bottom: 8px;
+	
+}
+
+.styled-paragraphs{
+	
+	border-color: #ccc;
+	background: #fff;
+	padding: 8px;
+	margin-bottom: 8px;
+	border-radius: 4px 4px;
+}
 
 
 .skill-column{
@@ -42,9 +67,16 @@
 	
 }
 
-.section h1{
+.section h2{
 
 	text-align: center;
+	
+}
+
+.section h3{
+
+	width: 20%;
+	margin-bottom: 0;
 	
 }
 
@@ -64,4 +96,11 @@
 #right-content{
 
 	float: right;
+}
+
+ul {
+	
+	list-style-type: none;
+	margin-top: 0;
+	
 }
