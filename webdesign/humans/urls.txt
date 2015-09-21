@@ -1,0 +1,5 @@
+https://www.khanacademy.org/
+http://stackoverflow.com/
+http://code.tutsplus.com/categories/angularjs
+http://www.pluralsight.com/
+http://thenewboston.com/

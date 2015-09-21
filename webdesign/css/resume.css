@@ -1,0 +1,67 @@
+#basic-info  {
+
+	 text-align: center;
+	 
+}
+
+#basic-info h1{
+
+	margin-bottom: 2px;
+}
+
+#wrapper{
+
+
+	margin: 0 auto;
+	width: 960px;
+}
+
+#education{
+
+	clear: both;
+	
+}
+
+
+
+.skill-column{
+
+	display: inline-block;
+	width: 250px;
+	
+}
+
+
+.section{
+
+	border-radius: 4px 4px;
+	background: lightblue;
+	padding: 8px;
+	margin-bottom: 8px;
+
+	
+}
+
+.section h1{
+
+	text-align: center;
+	
+}
+
+
+#current-address{
+
+	
+	float: left;
+}
+
+#permanent-address{
+
+
+	float: right;
+}
+
+#right-content{
+
+	float: right;
+}

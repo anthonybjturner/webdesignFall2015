@@ -1,0 +1,15 @@
+http://cs.newpaltz.edu/~n02384301/humans.txt
+
+http: scheme
+
+domain: cs.newpaltz.edu
+
+sub domain (machine name): cs
+
+path: ~n02384301/humans.txt
+
+query string: https://google.com/search?q=cat+videos
+
+fragment: http://www.example.org/greeter.html#name=jeff
+
+

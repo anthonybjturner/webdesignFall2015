@@ -1,0 +1,19 @@
+#container{
+	
+	width: 400px;
+	height: 400px;
+	background: green;
+	margin-left: 10px;
+	padding-top: 100px;
+}
+
+#content{
+	
+	width: 250px;
+	height: 250px;
+	background: gray;
+	border: 10px solid blue;
+	margin: auto;
+	padding: 10px;
+	color: white;
+}
