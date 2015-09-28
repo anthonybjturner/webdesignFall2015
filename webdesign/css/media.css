@@ -1,0 +1,22 @@
+p{
+  
+    color: white;
+    text-shadow:  3px 3px 0 #000;
+    
+    font-family: "Arial Black", sans-serif;
+    font-size: 4em;
+    position: relative;
+    bottom: 390px;
+}
+
+#meme{
+    
+    text-align: center;
+}
+
+#meme img{
+    
+    
+    width: 500px;
+    height: 500px;
+}
