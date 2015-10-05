@@ -1,75 +1,137 @@
-.label{
-    
-    
-    
+.label {
     border-radius: 2px 2px;
-
 }
 
-ul{
-    
+ul {
     list-style-type: none;
     padding: 4px;
 }
 
-ul li{
-    
-    padding-bottom: 8px;
-    padding-top: 4px;
-    border-bottom: solid 1px #ccc;
+ul li {
+    padding: 8px;
+    border-radius: 2px 2px;
 }
 
-.panel{
-    
-    
+.panel {
     color: #fff;
     text-shadow: 4px 4px 4px 0 #000;
     border: solid 1px #ccc;
     border-radius: 2px 2px;
     margin: 4px;
-    
-  
 }
 
-.panel-heading{
-    
+.panel-heading {
     background-color: #0099FF;
-
-    
 }
 
-h1{
+h1 {
     color: #fff;
     text-align: center;
 }
-.panel-heading h2{
-    
+
+.panel-heading h2 {
     text-align: center;
     margin-top: 0;
     color: #fff;
     font-family: "Courier New", Courier, sans-serif;
-    
 }
 
-.small{
-    
+.small {
     width: 18%;
     display: inline-block;
 }
 
-.wrapper{
-    
+.wrapper {
     margin: 0 auto;
     width: 960px;
     background-color: #F7F7F7 transparent;
-
 }
 
-body{
+body {
+    background-image: url("../images/kendo-bg.jpg");
+    background-repeat: repeat;
+    background-position: center center;
+}
+
+#monday {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    height: 10000px;
+}
+
+#tuesday {
+    position: absolute;
+    top: 60px;
+    left: 20%;
+    height: 10000px;
+}
+
+#wednesday {
+    position: absolute;
+    top: 60px;
+    left: 40%;
+    height: 10000px;
+}
+
+#thursday {
+    position: absolute;
+    top: 60px;
+    left: 60%;
+    height: 10000px;
+}
+
+#friday {
+    position: absolute;
+    top: 60px;
+    left: 80%;
+    height: 10000px;
+}
+
+.web-page-design {
+    position: absolute;
+    top: 600px;
+    height: 105px;
+}
+
+.web-programming {
+    position: absolute;
+    top: 150px;
+    height: 75px;
+}
+
+.software-development-internship { /* Time of 11:00am - 5:00p: */
+    position: absolute;
+    top: 240px;
+    height: 360px;
+}
+
+
+/*There are different times for my internship, so I've added inherited sub classes */
+.intern-time-two{/* Time of 3:30 pm - 6:20pm */
     
+    position: absolute;
+    top: 510px;
+    height: 170px;
+    
+}
 
+.intern-time-three{/* Time of 11 am - 6:20 pm*/
+    
+    position: absolute;
+    top: 240px;
+    height: 80px;
+    
+}
 
-     background-image: url("../images/kendo-bg.jpg");
-     background-repeat: no-repeat;
-     background-position: center center;
+.discrete {
+    position: absolute;
+    top: 420px;
+    height: 75px;
+}
+
+.visual-programming {
+    position: absolute;
+    top: 690px;
+    height: 75px;
 }

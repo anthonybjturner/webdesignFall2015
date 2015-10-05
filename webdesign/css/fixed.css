@@ -1,0 +1,28 @@
+div{
+    
+    height: 200px;
+    width: 200px;
+}
+
+#wrapper{
+    
+    border: 1px dashed black;
+}
+
+#div1{/* Navigation */
+    
+    background: red;
+    width: 150px;
+    height: 200px;
+    position: fixed;
+   
+}
+
+
+#div2{/* main section */
+    
+    background: blue;
+    margin-left: 160px;
+    height: 10000px;
+   
+}

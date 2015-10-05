@@ -1,0 +1,27 @@
+div{
+    
+    height: 200px;
+    width: 200px;
+}
+
+#wrapper{
+    
+    border: 1px dashed black;
+}
+
+#div1{
+    
+    background: red;
+    position: relative;
+    top: 10%;
+    left: 75px;
+}
+
+
+#div2{
+    
+    background: blue;
+    position: relative;
+    top: 70px;
+    left: 109px;
+}
