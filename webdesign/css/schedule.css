@@ -1,19 +1,21 @@
-.label {
-    border-radius: 2px 2px;
-}
+
 
 ul {
+
     list-style-type: none;
     padding: 4px;
+
 }
 
 ul li {
     padding: 8px;
     border-radius: 2px 2px;
+    
 }
 
 .panel {
-    color: #fff;
+   
+    font-size: 11px;
     text-shadow: 4px 4px 4px 0 #000;
     border: solid 1px #ccc;
     border-radius: 2px 2px;
@@ -21,34 +23,44 @@ ul li {
 }
 
 .panel-heading {
+   
     background-color: #0099FF;
 }
 
 h1 {
-    color: #fff;
+   
     text-align: center;
 }
 
 .panel-heading h2 {
+    
+     font-size: 2em;
     text-align: center;
     margin-top: 0;
-    color: #fff;
-    font-family: "Courier New", Courier, sans-serif;
+   
 }
+
 
 .small {
     width: 18%;
     display: inline-block;
 }
 
+
 .wrapper {
+    
     margin: 0 auto;
     width: 960px;
-    background-color: #F7F7F7 transparent;
+    font-family: "Courier New", Courier, sans-serif;
+    font-weight: bold;
+    color: #fff;
+  
 }
 
 body {
-    background-image: url("../images/kendo-bg.jpg");
+    
+    
+    background-image: url("../images/kendo-bg-two.jpg");
     background-repeat: repeat;
     background-position: center center;
 }

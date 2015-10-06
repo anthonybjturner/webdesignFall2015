@@ -1,87 +1,95 @@
 <!DOCTYPE html>
+<!-- 
+	Author: Anthony Turner
+	Course: Web Design 101
+	File: Schedule.html 
+	Description: Demonstrating absolute positioning, uses a course or event's time duration (length) for determining that course/event's spacing/height on the page. 
+	It uses the events starting time to determine its vertical position on the page through absolute positioning and 'top' 
+-->
 <html>
 
-	<head>
-	
-		<title> My Schedule </title>
-		<link rel="stylesheet" type="text/css" href="../css/schedule.css">
-		
-	</head>
-	
-	<body>
-	
+<head>
+
+	<title> My Schedule </title>
+	<link rel="stylesheet" type="text/css" href="../css/schedule.css">
+
+</head>
+
+<body>
+
 	<div class="wrapper">
-		<div id="days">
-		<h1>My Fall 2015 university Schedule</h1>
-		
+		<div>
+			<h1>My Fall 2015 University and Work Schedule</h1>
+
 		</div>
-	
-		
+
+
 		<div class="panel small" id="monday">
-	    		<div class="panel-heading">
-	    			<h2>Monday</h2>
-	    		
-	    		</div>
-	    		
-	        <ul>
-	          <li class="web-programming"><div class="label">9:30am - 10:45am:</div> Web Programming</li>
-	          <li class="software-development-internship"><div class="label">11:00am - 5:00p:</div> Software Development Internship</li>
-	          <li class="web-page-design"><div class="label">5:00p - 6:15p:</div> Web Page Design</li>
-	        </ul>
-	    </div>
-	    
-	    	<div class="panel small" id="tuesday">
-	    		<div class="panel-heading">
-	    			<h2>Tuesday</h2>
-	    		
-	    		</div>
-	    		
-	        <ul>
-	          <li class="discrete">2:00 pm - 3:15 pm: Discrete and Continous Computer Algorithms</li>
-	          <li class="software-development-internship intern-time-two">3:30 pm - 6:20p: Software Development Internship</li>
-	          <li class="visual-programming">6:30 pm - 7:45p: Visual Programming</li>
-	        </ul>
-	    </div>
-	    
-	    	<div class="panel small" id="wednesday">
-	    		<div class="panel-heading">
-	    			<h2>Wednesday</h2>
-	    		
-	    		</div>
-	    		
-	        <ul>
-	          <li class="software-development-internship">11:00am - 5:00am: Software Development Internship</li>
-	          <li class="web-page-design">5:00p - 6:15pm: Web Page Design</li>
-	          
-	        </ul>
-	    </div>
-	    
-	    	<div class="panel small" id="thursday">
-	    		<div class="panel-heading">
-	    			<h2>Thursday</h2>
-	    		
-	    		</div>
-	    		
-	        <ul>
-	          <li class="web-programming">9:30am - 10:45am: Web Programming</li>
-	          <li class="software-development-internship intern-time-three">11:00am - 6:20pm: Software Development Internship</li>
-	          <li class="visual-programming">6:30p - 7:45pm: Visual Programming</li>
-	        </ul>
-	    </div>
-	    
-	    	<div class="panel small" id="friday">
-	    		<div class="panel-heading">
-	    			<h2>Friday</h2>
-	    		
-	    		</div>
-	    		
-	        <ul>
-	          <li class="discrete">2:00 pm - 3:15 pm: Descrete and Continous Computer Algorithms</li>
-	          <li class="software-development-internship intern-time-two">3:30 pm - 6:20p: Software Development Internship</li>
-	        </ul>
-	    </div>
-			
+			<div class="panel-heading">
+				<h2>Monday</h2>
+
+			</div>
+
+			<ul>
+				<li class="web-programming"> 9:30am - 10:45am Web Programming</li>
+				<li class="software-development-internship">11:00am - 5:00p: Software Development Internship</li>
+				<li class="web-page-design">5:00p - 6:15p: Web Page Design</li>
+			</ul>
 		</div>
-	
-	</body>
+
+		<div class="panel small" id="tuesday">
+			<div class="panel-heading">
+				<h2>Tuesday</h2>
+
+			</div>
+
+			<ul>
+				<li class="discrete">2:00 pm - 3:15 pm: Discrete and Continous Computer Algorithms</li>
+				<li class="software-development-internship intern-time-two">3:30 pm - 6:20p: Software Development Internship</li>
+				<li class="visual-programming">6:30 pm - 7:45p: Visual Programming</li>
+			</ul>
+		</div>
+
+		<div class="panel small" id="wednesday">
+			<div class="panel-heading">
+				<h2>Wednesday</h2>
+
+			</div>
+
+			<ul>
+				<li class="software-development-internship">11:00am - 5:00am: Software Development Internship</li>
+				<li class="web-page-design">5:00p - 6:15pm: Web Page Design</li>
+
+			</ul>
+		</div>
+
+		<div class="panel small" id="thursday">
+			<div class="panel-heading">
+				<h2>Thursday</h2>
+
+			</div>
+
+			<ul>
+				<li class="web-programming">9:30am - 10:45am: Web Programming</li>
+				<li class="software-development-internship intern-time-three">11:00am - 6:20pm: Software Development Internship</li>
+				<li class="visual-programming">6:30p - 7:45pm: Visual Programming</li>
+			</ul>
+		</div>
+
+		<div class="panel small" id="friday">
+			<div class="panel-heading">
+				<h2>Friday</h2>
+
+			</div>
+
+			<ul>
+				<li class="discrete">2:00 pm - 3:15 pm: Descrete and Continous Computer Algorithms</li>
+				<li class="software-development-internship intern-time-two">3:30 pm - 6:20p: Software Development Internship</li>
+			</ul>
+		</div>
+
+	</div>
+
+</body>
+
 </html>
