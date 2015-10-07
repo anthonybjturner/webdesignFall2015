@@ -1,0 +1,101 @@
+#wrapper{
+  
+     margin: 0 auto;
+    width: 960px;
+}
+
+.navigation ul {
+    
+  list-style: none;
+}
+
+
+.navigation ul li{
+    
+  
+    display: inline;
+}
+
+.feed{
+    
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-bottom: 8px;
+    width: 500px;
+  
+}
+
+.feed textarea{
+    
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.feed-wrapper{
+  
+     width: 500px;
+}
+
+h1{
+    
+    text-align: center;
+    background-color: wheat;
+  
+}
+
+.photo-area img{
+    
+    width: 500px;
+    height: 500px;
+
+}
+
+.user-info-area{
+    
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-bottom: 8px;
+
+    
+}
+
+
+.comments-info-area{
+    
+    border: 1px solid #ccc;
+    padding: 8px;
+
+    
+}
+
+.comments-info-area h2{
+    
+    padding: 8px;
+    background-color: wheat;
+    width: 25%;
+
+}
+
+.add-comment-area{
+    
+    margin-top: 16px;
+
+}
+
+#add-comment{
+    
+    width: 85%;
+}
+
+#submit-button{
+    width: 15%;
+}
+
+.effects{
+    
+    border-radius: 2px 2px;
+    box-shadow: 4px 4px 4px #ccc;
+}
+
