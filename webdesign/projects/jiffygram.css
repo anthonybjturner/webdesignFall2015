@@ -1,7 +1,23 @@
+body{
+    
+     background: -webkit-linear-gradient(white, #ccc); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, #ccc); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, #ccc); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, #ccc); /* Standard syntax */
+}
+
 #wrapper{
   
      margin: 0 auto;
-    width: 960px;
+     width: 960px;
+     border-radius: 2px 2px 2px;
+    
+    padding: 16px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ccc), to(white));
+    background: -webkit-linear-gradient(#ccc, white);
+    background: -moz-linear-gradient(#ccc, white);
+    background: -o-linear-gradient(#ccc, white);
+    background: linear-gradient(#ccc, white); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */ /* Standard syntax */
 }
 
 .navigation ul {
@@ -20,9 +36,13 @@
     
     text-align: left;
     border: 1px solid #ccc;
+    border-radius: 2px 2px 2px;
     padding: 16px;
-    margin-bottom: 8px;
     width: 500px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    
   
 }
 
@@ -42,6 +62,7 @@ h1{
     
     text-align: center;
     background-color: wheat;
+    padding: 16px;
   
 }
 
