@@ -1,0 +1,106 @@
+#basic-info  {
+
+	 text-align: center;
+	 
+}
+
+#basic-info h1{
+
+	margin-bottom: 2px;
+}
+
+#wrapper{
+
+
+	margin: 0 auto;
+	width: 960px;
+}
+
+#education{
+
+	clear: both;
+	
+}
+
+.styled-borders{
+	
+	border-radius: 0 4px 4px 0;
+	
+	border-top: 0;
+	border-right: 2px;
+	border-bottom: 2px;
+	border-left: 2px;
+
+	background: #fff;
+	border: solid 1px #ccc;
+	
+	padding: 8px;
+	margin-bottom: 8px;
+	
+}
+
+.styled-paragraphs{
+	
+	border-color: #ccc;
+	background: #fff;
+	padding: 8px;
+	margin-bottom: 8px;
+	border-radius: 4px 4px;
+}
+
+
+.skill-column{
+
+	display: inline-block;
+	width: 250px;
+	
+}
+
+
+.section{
+
+	border-radius: 4px 4px;
+	background: lightblue;
+	padding: 8px;
+	margin-bottom: 8px;
+
+	
+}
+
+.section h2{
+
+	text-align: center;
+	
+}
+
+.section h3{
+
+	width: 20%;
+	margin-bottom: 0;
+	
+}
+
+
+#current-address{
+
+	
+	float: left;
+}
+
+#permanent-address{
+
+
+	float: right;
+}
+
+#right-content{
+
+	float: right;
+}
+
+ul {
+	
+	list-style-type: none;
+	margin-top: 0;
+	
+}
