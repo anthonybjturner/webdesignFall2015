@@ -1,23 +1,16 @@
 body{
     
-     background: -webkit-linear-gradient(white, #ccc); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(white, #ccc); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(white, #ccc); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(white, #ccc); /* Standard syntax */
+  background-color: #E6E6E6;
+ 
 }
 
-#wrapper{
-  
-     margin: 0 auto;
-     width: 960px;
-     border-radius: 2px 2px 2px;
+.navigation{
     
-    padding: 16px;
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ccc), to(white));
-    background: -webkit-linear-gradient(#ccc, white);
-    background: -moz-linear-gradient(#ccc, white);
-    background: -o-linear-gradient(#ccc, white);
-    background: linear-gradient(#ccc, white); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */ /* Standard syntax */
+      background-color: #fff;
+      border: 1px solid #ccc;
+      margin-bottom: 16px;
+
+    
 }
 
 .navigation ul {
@@ -28,9 +21,33 @@ body{
 
 .navigation ul li{
     
-  
+      padding: 8px;
+    border-radius: 8px;
     display: inline;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.8;
 }
+
+.active-link{
+    
+    color: #000 !important;
+    border: 1px solid #ccc;
+    background-color: cyan !important;
+    
+}
+
+#wrapper{
+  
+     margin: 0 auto;
+     width: 960px;
+     border-radius: 2px 2px 2px;
+    
+    padding: 16px;
+
+}
+
+
 
 .feed{
     
@@ -61,7 +78,7 @@ body{
 h1{
     
     text-align: center;
-    background-color: wheat;
+    background-color: #fff;
     padding: 16px;
   
 }
@@ -73,13 +90,60 @@ h1{
 
 }
 
+
+.transparent-background{
+    
+   background-color: #000;
+   color: yellow;
+   border-radius: inherit;
+   opacity: 0.6;
+}
+
+.left-comment-column{
+    
+    
+    display: inline-block;
+    padding: 8px 0  0 8px;
+    width: 72%;
+    
+
+}
+
+
 .user-info-area{
     
     border: 1px solid #ccc;
-    padding: 16px;
     margin-bottom: 8px;
+    height: 100%;
+    background-color: #333333;
+    color: #fff;
+
 
     
+}
+
+
+.poster-info-area{
+    
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    height: 52px;
+    background-color: #333333;
+    color: #fff;
+
+
+    
+}
+
+.right-comment-column{
+    
+   font-size: 12px;
+   border-left: 1px solid #ccc;
+   padding: 8px;
+   width: 20%;
+   display: inline-block;
+
+
 }
 
 
@@ -91,12 +155,25 @@ h1{
     
 }
 
+.comment{
+    
+    margin-top: 8px;
+    padding: 8px;
+    background-color: #fff;
+    color: #000;
+}
+
 .comments-info-area h2{
     
-    padding: 8px;
-    background-color: wheat;
-    width: 25%;
+    padding: 0 2px;
+    text-align: center;
 
+}
+
+h2{
+    
+    margin-top: 0;
+    margin-bottom: 6px;
 }
 
 .add-comment-area{
