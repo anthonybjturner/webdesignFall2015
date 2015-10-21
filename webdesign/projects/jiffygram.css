@@ -12,6 +12,13 @@
   
 }
 
+#post-wrapper{
+  
+     border-radius: 4px 4px 4px;
+     background-color: #fff;
+     padding-top: 16px;
+}
+
 .feed textarea{
     
     max-width: 100%;

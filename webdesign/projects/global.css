@@ -1,25 +1,43 @@
 body{
     
   background-color: #E6E6E6;
+  margin: 0;
  
+  
+  
 }
 
-.navigation{
+.navigation-area{
     
-      background-color: #fff;
-      border: 1px solid #ccc;
-      margin-bottom: 16px;
-
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 80px;
+  
     
 }
 
-.navigation ul {
+.navigation-area h1{
+    
+    display: inline;
+    
+    
+}
+
+.nav-links{
+    box-shadow: 2px 2px 2px 2px #000;
+     
+}
+
+.navigation-area ul {
     
   list-style: none;
 }
 
 
-.navigation ul li{
+.navigation-area ul li{
     
     padding: 8px;
     border-radius: 8px;
@@ -37,7 +55,7 @@ body{
     background-color: #fff !important;
 }
 
-#wrapper{
+.wrapper{
   
      margin: 0 auto;
      width: 960px;
@@ -48,13 +66,7 @@ body{
 }
 
 
-h1{
-    
-    text-align: center;
-    background-color: #fff;
-    padding: 16px;
-  
-}
+
 
 h2{
     
@@ -66,8 +78,9 @@ h2{
 
 .effects{
     
-    border-radius: 2px 2px;
-    box-shadow: 4px 4px 4px #ccc;
+    border-radius: 4px 4px;
+    box-shadow: 2px 2px 2px 2px #000;
+    padding: 8px;
 }
 
 
